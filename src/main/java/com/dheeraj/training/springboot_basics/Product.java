@@ -10,6 +10,9 @@ public class Product {
     private String productName;
     private long productPrice;
 
+    public Product() {
+    }
+
     public int getProductId() {
         return productId;
     }
@@ -34,10 +37,6 @@ public class Product {
         this.productPrice = productPrice;
     }
 
-
-
-    public Product() {
-    }
 
     public Product(int productId, String productName, long productPrice) {
         this.productId = productId;
